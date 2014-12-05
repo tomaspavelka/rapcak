@@ -101,6 +101,9 @@ p {
   font-size: 17px;
   margin: 0 0 10px;
 }
+.text-center {
+  text-align: center;
+}
 .welcome {
   font-size: 24px;
   text-indent: 0px;
@@ -1542,4 +1545,13 @@ ul.icons li .icon-large:before {
 }
 .icon-user-md {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf200;&nbsp;');
+}
+
+table.prices tr th {
+  text-align: left;
+}
+table.prices tr td {
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
 }
